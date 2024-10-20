@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* This property allows items to wrap to the next line */
+}
+.item{
+	height: 100px;
+	width: 100px;
+}
+.item:nth-child(odd) {
+  background-color: red;
+}
+.item:nth-child(even) {
+  background-color: blue;
+}
